@@ -578,6 +578,7 @@ img {
   justify-content: center;
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -634,6 +635,7 @@ img {
 
 .modal-input:focus {
   border-color: #4d5ae5;
+  fill: #4d5ae5;
 }
 
 .svg-input {
@@ -696,7 +698,7 @@ img {
   fill: transparent;
 }
 
-.checkbox-span:checked {
+.input-visually:checked + .checkbox-label .checkbox-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
