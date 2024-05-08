@@ -471,7 +471,13 @@
           <p class="form-paragraph">Subscribe</p>
           <form action="" class="form">
             <label for="" class="label">
-              <input type="email" class="inp" placeholder="E-mail" id="email" />
+              <input
+                type="email"
+                class="inp"
+                placeholder="E-mail"
+                id="email"
+                name="inp"
+              />
             </label>
             <button type="submit" class="button-footer">
               <svg class="svg-footer" width="24" height="24">
@@ -537,6 +543,12 @@
           </div>
           <div class="comment-modal">
             <label for="user-comment" class="label-form-modal">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+              class="textarea-comment"
+            ></textarea>
             <div class="checkbox-container">
               <input
                 type="checkbox"
@@ -556,12 +568,6 @@
                 <a class="checkbox-link"> Privacy Policy</a>
               </label>
             </div>
-            <textarea
-              name="user-comment"
-              id="user-comment"
-              placeholder="Text input"
-              class="textarea-comment"
-            ></textarea>
           </div>
           <button class="button-send">Send</button>
         </form>
