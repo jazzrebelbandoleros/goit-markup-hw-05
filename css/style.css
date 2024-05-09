@@ -634,8 +634,11 @@ img {
 }
 
 .modal-input:focus + .svg-input {
-  border-color: #4d5ae5;
   fill: #4d5ae5;
+}
+
+.modal-input:focus {
+  border-color: #4d5ae5;
 }
 
 .svg-input {
